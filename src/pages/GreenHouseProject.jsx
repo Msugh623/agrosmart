@@ -1,9 +1,17 @@
-import React from 'react'
+import React, { useEffect } from 'react'
 import Delay from '../components/Delay'
 import { LazyLoadImage } from 'react-lazy-load-image-component'
 import media, { greenhouseCards } from '../media'
+import { useStateContext } from '../state/StateContext'
 
 const GreenHouseProject = () => {
+  const { setTitle } = useStateContext()
+
+  useEffect(() => {
+    scroll({ top: 0 })
+    setTitle('Green House Project')
+  }, [])
+
   return (
     <section id='services' className="py-5 pt-3 section services">
       <div className="container">

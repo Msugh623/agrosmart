@@ -5,12 +5,15 @@ import media, { homeProducts } from '../media'
 import { LazyLoadImage, trackWindowScroll } from 'react-lazy-load-image-component'
 import { useStateContext } from '../state/StateContext'
 import { Link } from 'react-router-dom'
-import InsiderPics from '../components/InsiderPics'
 import { FaFacebook } from 'react-icons/fa6'
 
 const Home = () => {
-    const { scrollData, hero } = useStateContext()
+    const { scrollData, hero,setTitle } = useStateContext()
 
+    useEffect(() => {
+        setTitle('')
+      }, [])
+    
     return (
         <div className="index-page">
             <div className="fixed-top">

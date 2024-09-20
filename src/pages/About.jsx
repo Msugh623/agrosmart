@@ -2,12 +2,16 @@ import React, { useEffect } from 'react'
 import Delay from '../components/Delay'
 import { LazyLoadImage } from 'react-lazy-load-image-component'
 import media from '../media'
+import { useStateContext } from '../state/StateContext'
 
 const About = () => {
+  const { setTitle } = useStateContext()
 
   useEffect(() => {
     scroll({ top: 0 })
+    setTitle('About Us')
   }, [])
+
 
   return (
     <section id='services' className="py-5 pt-3 section services">
@@ -17,10 +21,10 @@ const About = () => {
             <h2 className="h2 heading mb-4 slideUp">About Us</h2>
             <div className="row">
               <Delay delay={150}>
-              <div className="px-md-3 pb-3 slideUp">
-                At Agricavenue, we’re passionate about cultivating a brighter future for agriculture, one harvest at a time. As you explore our website, you’ll discover a diverse array of premium agricultural products, proudly grown and harvested with care on our innovative farms. From fresh vegetables bursting with flavor to succulent meats raised with ethical and sustainable practices, Agricavenue offers a bounty of wholesome goodness straight from the fields to your table.
-              </div>
-             </Delay>
+                <div className="px-md-3 pb-3 slideUp">
+                  At Agricavenue, we’re passionate about cultivating a brighter future for agriculture, one harvest at a time. As you explore our website, you’ll discover a diverse array of premium agricultural products, proudly grown and harvested with care on our innovative farms. From fresh vegetables bursting with flavor to succulent meats raised with ethical and sustainable practices, Agricavenue offers a bounty of wholesome goodness straight from the fields to your table.
+                </div>
+              </Delay>
               <div className="col-md-6">
                 <div className='pe-md-2'>
                   <Delay delay={500}>

@@ -1,13 +1,16 @@
 import React, { useEffect } from 'react'
 import { FaFacebook, FaLocationDot } from 'react-icons/fa6'
 import { GrContactInfo } from 'react-icons/gr'
-import { LuClock7 } from 'react-icons/lu'
 import Delay from '../components/Delay'
 import { BsEnvelopeAtFill } from 'react-icons/bs'
+import { useStateContext } from '../state/StateContext'
 
 const Contact = () => {
+  const {setTitle}=useStateContext()
+
   useEffect(() => {
     scroll({ top: 0 })
+    setTitle('Contact Us')
   }, [])
 
 
@@ -68,6 +71,7 @@ const Contact = () => {
               >
               </GoogleMapReact> */}
                 <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d63420.65572051701!2d3.28396!3d6.548055!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x103b8b2ae68280c1%3A0xdc9e87a367c3d9cb!2sLagos%2C%20Nigeria!5e0!3m2!1sen!2sus!4v1726785875044!5m2!1sen!2sus"
+                  className='shadow-lg'
                   width="100%"
                   height="300"
                   style={{}}
