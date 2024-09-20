@@ -22,7 +22,7 @@ const Contact = () => {
           <Delay delay={100}>
             <div className="mb-4 fs-5 slideUp">
               Reach out to us to experience the finest products and solutions from our farms.
-              We're dedicated to delivering the highest quality.
+              We're dedicated to delivering the highest quality, straight from our fields to you.
             </div>
           </Delay>
           <div className="row">
@@ -37,7 +37,7 @@ const Contact = () => {
                   </h5>
                 </div>
               </Delay>
-              <Delay delay={400}>
+              <Delay delay={500}>
                 <div className="mb-2 slideRight ">
                   <h6 className='mb-1'>
                     <GrContactInfo className='icon fs-4' /> Contact:
