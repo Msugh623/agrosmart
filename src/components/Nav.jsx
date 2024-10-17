@@ -70,7 +70,7 @@ const Nav = (props) => {
                             <Link to={'/about-us'} className={`me-1 rounded btn ${props?.hasBg ? 'text-light shadow-sm acbg' : 'text-dark'}`}>About Us</Link>
                             <Link to={'/contact-us'} className={`me-1 rounded btn ${props?.hasBg ? 'text-light shadow-sm acbg' : 'text-dark'}`}>Contact</Link>                        </div>
                     }
-                    <a className={`burger ${hasPop && 'active'} ${props?.hasBg && 'text-light'}`} data-bs-toggle="collapse" data-bs-target="#main-navbar" onClick={() => {
+                    <a className={`burger ${hasPop && 'active'} ${props?.hasBg && 'text-light'} d-lg-none`} data-bs-toggle="collapse" data-bs-target="#main-navbar" onClick={() => {
                         setHasPop(prev => !prev)
                     }}>
                         <span ></span>

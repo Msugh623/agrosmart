@@ -8,12 +8,12 @@ import { Link } from 'react-router-dom'
 import { FaFacebook } from 'react-icons/fa6'
 
 const Home = () => {
-    const { scrollData, hero,setTitle } = useStateContext()
+    const { scrollData, hero, setTitle } = useStateContext()
 
     useEffect(() => {
         setTitle('')
-      }, [])
-    
+    }, [])
+
     return (
         <div className="index-page">
             <div className="fixed-top">
@@ -129,7 +129,7 @@ const Home = () => {
                             </h2>
                             <div className="justify-content-center row">
                                 {
-                                    homeProducts.slice(0,3).map((product, i) => (
+                                    homeProducts.slice(0, 3).map((product, i) => (
                                         <div className="col-12 col-sm-6 col-md-4 mt-4" key={product.image}>
                                             <div className="hovShade shadow">
                                                 <LazyLoadImage effect='opacity' className='img-fluid acbg rounded shadow' placeholderSrc='/Media/placeholder.avif' src={product.image} alt="" />
@@ -161,7 +161,7 @@ const Home = () => {
                         </h2>
                         We can help you fit your stay and experience within your allotted budget.
                         <div className="mt-5">Book Your Stay Now</div>
-                        <div class="h1">0706 845 5265</div>
+                        <div class="h1">08182283683</div>
                     </div>
                 </div>
 

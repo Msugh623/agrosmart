@@ -6,7 +6,7 @@ import { BsEnvelopeAtFill } from 'react-icons/bs'
 import { useStateContext } from '../state/StateContext'
 
 const Contact = () => {
-  const {setTitle}=useStateContext()
+  const { setTitle } = useStateContext()
 
   useEffect(() => {
     scroll({ top: 0 })
@@ -43,11 +43,13 @@ const Contact = () => {
                     <GrContactInfo className='icon fs-4' /> Contact:
                   </h6>
                   <h5>
-                    0706 845 5265
+                    08182283683
                     <br /><br />
+                    Info@agricavenue.com.ng
+                    <br />
                     ⁠safakeye@agricavenue.com.ng
                     <br />
-                    Info@agricavenue.com.ng
+                   
                   </h5>
                 </div>
               </Delay>

@@ -30,12 +30,12 @@ const Footer = () => {
                                             <h4>Contacts</h4>
 
                                             <div onClick={() => {
-                                                navigator.clipboard.writeText('0706 845 5265')
+                                                navigator.clipboard.writeText('08182283683')
                                             }}>
                                                 <div>
                                                     Phone:
                                                 </div>
-                                                0706 845 5265
+                                                08182283683
                                             </div>
 
                                             <div className='text-light mt-3'>
@@ -58,16 +58,18 @@ const Footer = () => {
 
                             <div className="col-md-3 text-light" >
                                 <h4>Quick Links</h4>
-
+                                <Link to={'/green-house-project'} className='d-block' style={{
+                                    textDecoration: 'underline'
+                                }}>Green House Project</Link>
+                                <Link to={'/our-farm'} className='d-block' style={{
+                                    textDecoration: 'underline'
+                                }}>Our Farm</Link>
                                 <Link to={'/about-us'} className='d-block' style={{
                                     textDecoration: 'underline'
                                 }}>About Us</Link>
                                 <Link to={'/contact-us'} className='d-block' style={{
                                     textDecoration: 'underline'
                                 }}>Contact Us</Link>
-                                <Link to={'/green-house-project'} className='d-block' style={{
-                                    textDecoration: 'underline'
-                                }}>Green House Project</Link>
                             </div>
 
                         </div>
