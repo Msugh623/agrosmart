@@ -161,7 +161,7 @@ const Home = () => {
                         </h2>
                         We can help you fit your stay and experience within your allotted budget.
                         <div className="mt-5">Book Your Stay Now</div>
-                        <div class="h1">08182283683</div>
+                        <div class="h1">0818  228 3683</div>
                     </div>
                 </div>
 

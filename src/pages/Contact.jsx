@@ -43,7 +43,7 @@ const Contact = () => {
                     <GrContactInfo className='icon fs-4' /> Contact:
                   </h6>
                   <h5>
-                    08182283683
+                    0818  228 3683
                     <br /><br />
                     Info@agricavenue.com.ng
                     <br />

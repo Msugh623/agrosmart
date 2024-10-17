@@ -30,12 +30,12 @@ const Footer = () => {
                                             <h4>Contacts</h4>
 
                                             <div onClick={() => {
-                                                navigator.clipboard.writeText('08182283683')
+                                                navigator.clipboard.writeText('0818  228 3683')
                                             }}>
                                                 <div>
                                                     Phone:
                                                 </div>
-                                                08182283683
+                                                0818  228 3683
                                             </div>
 
                                             <div className='text-light mt-3'>
