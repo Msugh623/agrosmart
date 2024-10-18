@@ -343,11 +343,6 @@ h6 {
     }
 }
 
-.spinner {
-    animation: animate-preloader 1.5s linear infinite;
-}
-
-
 @keyframes animateGrowIn {
     0% {
         opacity: .8;
@@ -2382,7 +2377,7 @@ path {
 }
 
 .acbg:hover,
-.nav-links a:hover{
+.nav-links a:hover {
     background-color: #3d8f1c !important;
     color: #efefef !important;
     box-shadow: 0 20px 2rem rgba(0, 0, 0, 0.175) !important
@@ -2438,15 +2433,15 @@ path {
     padding-right: 30px;
     padding-left: 10px;
     width: 100%;
-    text-align: left!important;
+    text-align: left !important;
 }
 
 .ndd .dropdown li:hover a {
     color: inherit !important;
 }
 
-.ndd .dropdown li:hover{
-    transition: all,.3s;
+.ndd .dropdown li:hover {
+    transition: all, .3s;
     color: #efefef !important;
     background-color: #277508;
     border-radius: 4px;
@@ -2459,10 +2454,14 @@ path {
     display: block;
 }
 
-.subnav-btn{
-    background-color: #efefef30!important;
+.subnav-btn {
+    background-color: #efefef30 !important;
 }
 
-.subnav-btn:hover{
-    background-color: #efefef50!important;
+.subnav-btn:hover {
+    background-color: #efefef50 !important;
+}
+
+.spinner {
+    animation: animate-preloader 1.5s linear infinite !important;
 }
