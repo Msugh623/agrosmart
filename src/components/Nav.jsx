@@ -53,7 +53,7 @@ const Nav = (props) => {
                         </Link>
                     </h2>
                     {!hasPop &&
-                        <div className="ms-auto me-2 d-none d-lg-block nav-links">
+                        <div className="ms-auto me-2 d-none d-md-block nav-links">
                             <Link to={'/'} className={`me-1 rounded btn ${props?.hasBg ? 'text-light shadow-sm acbg' : 'text-dark'}`} onClick={() => window.scroll({ top: 0 })}>Home</Link>
                             <Link to={'/our-farm'} className={`me-1 rounded ndd btn ${props?.hasBg ? 'text-light shadow-sm acbg' : 'text-dark'}`}>
                                 Our Farm <FaChevronDown className='icon' fontSize={'.7em'}/>
