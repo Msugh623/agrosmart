@@ -25,15 +25,16 @@ const OilProducts = () => {
             </h2>
             <Delay delay={400}>
               <div className='slideUp'>
-                Agricavenue is a pioneering farm business that specializes in vegetable oil production, harnessing the power of nature to create high-quality oils from a variety of crops. Situated on expansive fields, our farm employs innovative techniques such as cold-pressing and solvent extraction to extract pure, flavorful oils from seeds and nuts.
+                Agrosmart is a pioneering farm business that specializes in vegetable oil production, harnessing the power of nature to create high-quality oils from a variety of crops. Situated on expansive fields, our farm employs innovative techniques such as cold-pressing and solvent extraction to extract pure, flavorful oils from seeds and nuts.
                 <div className="mt-3">
-                  From rich and nutty walnut oil to light and versatile sunflower oil, Agricavenue offers a diverse range of premium vegetable oils to cater to various culinary needs. Committed to sustainability, we carefully source our raw materials from local farmers and prioritize eco-friendly production practices to minimize waste and environmental impact.
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit. Officia aliquam excepturi illum quae, sit facilis, aut enim rem, cumque eaque odit. Dolore quisquam deserunt odio facilis veritatis nisi, architecto error?
+                  Aut deserunt enim voluptatum eligendi, unde amet exercitationem cupiditate culpa libero minima laudantium eaque numquam cum? Quaerat, repellendus architecto id consectetur distinctio sint molestias hic, odit libero maiores nam nesciunt?
                   <div className="mt-3">
-                    Agricavenue’s vegetable oils are not only delicious but also nourishing, providing essential fatty acids and nutrients for a healthy lifestyle. Experience the essence of nature in every drop with Agricavenue’s exceptional vegetable oil products. We take pride in producing a diverse range of high-quality vegetable oils using sustainable and eco-friendly methods.
+                    Lorem ipsum dolor, sit amet consectetur adipisicing elit. Molestiae reiciendis praesentium dolore vero veritatis cupiditate earum est, ipsam inventore laborum placeat, voluptate beatae, omnis recusandae! Cum quis voluptates temporibus veniam!
                   </div>
                 </div>
                 <div className="mt-3">
-                  Some examples of vegetable oil production at Agricavenue include:
+                  Some examples of vegetable oil production at Agrosmart include:
                 </div>
               </div>
             </Delay>
@@ -111,7 +112,7 @@ const OilProducts = () => {
                       <LazyLoadImage effect='opacity' className='img-fluid acbg rounded shadow' placeholderSrc='/Media/placeholder.avif' src={'/Media/Avocado.jpg'} alt="" />
                       <h4 className="h4 mb-2">Avocado Oil</h4>
                       <p>
-                        Cold-pressed from ripe avocados, our avocado oil is rich in monounsaturated fats and has a smooth, buttery texture, making it perfect for high-heat cooking or as a finishing oil. Experience the purity and quality of Agricavenue's vegetable oils, crafted with care and integrity from farm to table.
+                        Cold-pressed from ripe avocados, our avocado oil is rich in monounsaturated fats and has a smooth, buttery texture, making it perfect for high-heat cooking or as a finishing oil. Experience the purity and quality of Agrosmart's vegetable oils, crafted with care and integrity from farm to table.
                       </p>
                     </div>
                   </div>
@@ -119,7 +120,7 @@ const OilProducts = () => {
               </div>
             </Delay>
             <div className="mt-3">
-              Experience the freshness and quality of Agricavenue’s sustainably raised fish, where every bite reflects our commitment to responsible aquaculture practices and exceptional taste.
+              Experience the freshness and quality of Agrosmart’s sustainably raised fish, where every bite reflects our commitment to responsible aquaculture practices and exceptional taste.
             </div>
           </div>
         </div>

@@ -22,7 +22,7 @@ const About = () => {
             <div className="row">
               <Delay delay={150}>
                 <div className="px-md-3 pb-3 slideUp">
-                  At Agricavenue, we’re passionate about cultivating a brighter future for agriculture, one harvest at a time. As you explore our website, you’ll discover a diverse array of premium agricultural products, proudly grown and harvested with care on our innovative farms. From fresh vegetables bursting with flavor to succulent meats raised with ethical and sustainable practices, Agricavenue offers a bounty of wholesome goodness straight from the fields to your table.
+                  At Agrosmart, we’re passionate about cultivating a brighter future for agriculture, one harvest at a time. As you explore our website, you’ll discover a diverse array of premium agricultural products, proudly grown and harvested with care on our innovative farms. From fresh vegetables bursting with flavor to succulent meats raised with ethical and sustainable practices, Agrosmart offers a bounty of wholesome goodness straight from the fields to your table.
                 </div>
               </Delay>
               <div className="col-md-6">
@@ -35,7 +35,7 @@ const About = () => {
                   <br />
                   <Delay delay={800}>
                     <div className='slideUp'>
-                      As you navigate our website, you’ll not only discover the incredible range of products we offer but also glimpse into the future of Agricavenue in the agricultural sector. From expanding our organic farming practices to embracing precision agriculture and agrotech solutions, we’re dedicated to pushing the boundaries of what’s possible in sustainable farming. Join us on this journey as we cultivate a brighter, greener future for agriculture together.
+                      As you navigate our website, you’ll not only discover the incredible range of products we offer but also glimpse into the future of Agrosmart in the agricultural sector. From expanding our organic farming practices to embracing precision agriculture and agrotech solutions, we’re dedicated to pushing the boundaries of what’s possible in sustainable farming. Join us on this journey as we cultivate a brighter, greener future for agriculture together.
                     </div>
                   </Delay>
                   <br />
@@ -46,7 +46,7 @@ const About = () => {
                 <div className='ps-md-2'>
                   <Delay>
                     <div className='slideUp'>
-                      But Agricavenue is more than just a purveyor of exceptional produce – we’re pioneers in shaping the future of agriculture. With a steadfast commitment to innovation and sustainability, we’re constantly exploring new technologies and methods to enhance productivity, minimize environmental impact, and promote food security. Our greenhouse projects harness the power of controlled environments to ensure year-round crop production, while our aquaculture initiatives revolutionize seafood farming with responsible practices and premium-quality fish.
+                      But Agrosmart is more than just a purveyor of exceptional produce – we’re pioneers in shaping the future of agriculture. With a steadfast commitment to innovation and sustainability, we’re constantly exploring new technologies and methods to enhance productivity, minimize environmental impact, and promote food security. Our greenhouse projects harness the power of controlled environments to ensure year-round crop production, while our aquaculture initiatives revolutionize seafood farming with responsible practices and premium-quality fish.
                     </div>
                   </Delay>
                   <br />
@@ -58,7 +58,7 @@ const About = () => {
                 </div>
               </div>
               <p>
-                Welcome to Agricavenue – where innovation meets tradition, and the future of agriculture begins today.
+                Welcome to Agrosmart – where innovation meets tradition, and the future of agriculture begins today.
               </p>
             </div>
           </div>

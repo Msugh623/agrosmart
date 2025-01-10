@@ -27,13 +27,13 @@ const SeaAndFrozen = () => {
             </h2>
             <Delay delay={400}>
               <div className='slideUp'>
-                Agricavenue is a pioneering farm business that specializes in fish production, harnessing sustainable aquaculture practices to cultivate premium-quality seafood. Nestled in pristine waters, our farm maintains a healthy and natural environment for our fish, ensuring optimal growth and flavor. From freshwater favorites like tilapia and trout to saltwater specialties such as salmon and sea bass, Agricavenue offers a diverse selection of responsibly raised fish to cater to various culinary preferences.
+                Agrosmart is a pioneering farm business that specializes in fish production, harnessing sustainable aquaculture practices to cultivate premium-quality seafood. Nestled in pristine waters, our farm maintains a healthy and natural environment for our fish, ensuring optimal growth and flavor. From freshwater favorites like tilapia and trout to saltwater specialties such as salmon and sea bass, Agrosmart offers a diverse selection of responsibly raised fish to cater to various culinary preferences.
 
                 <div className="mt-3">
-                  Committed to environmental stewardship, we prioritize water conservation and waste management to minimize our ecological footprint. Agricavenue’s fish products are not only delicious and nutritious but also reflect our dedication to sustainable farming practices and the preservation of marine ecosystems. We pride ourselves on producing a variety of high-quality fish species using sustainable aquaculture methods.
+                  Committed to environmental stewardship, we prioritize water conservation and waste management to minimize our ecological footprint. Agrosmart’s fish products are not only delicious and nutritious but also reflect our dedication to sustainable farming practices and the preservation of marine ecosystems. We pride ourselves on producing a variety of high-quality fish species using sustainable aquaculture methods.
                 </div>
                 <div className="mt-3">
-                  Some examples of fish produced at Agricavenue include:
+                  Some examples of fish produced at Agrosmart include:
                 </div>
               </div>
             </Delay>
@@ -108,7 +108,7 @@ const SeaAndFrozen = () => {
               </div>
             </Delay>
             <div className="mt-3">
-              Experience the freshness and quality of Agricavenue’s sustainably raised fish, where every bite reflects our commitment to responsible aquaculture practices and exceptional taste.
+              Experience the freshness and quality of Agrosmart’s sustainably raised fish, where every bite reflects our commitment to responsible aquaculture practices and exceptional taste.
             </div>
           </div>
         </div>

@@ -14,7 +14,7 @@ const Loader = () => {
             <div className="d-flex">
                 <div className="mx-auto">
                     <h1 className='ani text-center'>
-                        <LazyLoadImage src={media.logoSm} effect='opacity' alt="Agricavenue Logo" about='Agricavenue Logo' height={'120px'} className='rounded slideIn' />
+                        <LazyLoadImage src={media.logoSm} effect='opacity' alt="Agrosmart Logo" about='Agrosmart Logo' height={'120px'} className='rounded slideIn' />
 
                         <Delay delay={100}>
 
@@ -22,7 +22,7 @@ const Loader = () => {
                                 <Delay delay={300}>
                                     <FaSpinner className='spinner icon growIn me-2' />
                                 </Delay>
-                                Agricavenue
+                                Agrosmart
                             </div>
                         </Delay>
                     </h1>

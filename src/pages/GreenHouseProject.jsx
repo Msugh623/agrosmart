@@ -9,18 +9,18 @@ const GreenHouseProject = () => {
 
   useEffect(() => {
     scroll({ top: 0 })
-    setTitle('Green House Project')
+    setTitle('Some  Other Project')
   }, [])
 
   return (
     <section id='services' className="py-5 pt-3 section services">
       <div className="container">
         <div className="mb-4 px-md-5">
-          <h2 className="h2 heading mb-4 slideUp">Green House Project</h2>
+          <h2 className="h2 heading mb-4 slideUp">Some  Other Project</h2>
 
           <Delay delay={120}>
             <div className="slideUp">
-              Agricavenue Farm, nestled in the heart of Nigeria, has embarked on an innovative greenhouse project aimed at revolutionizing agriculture in the region. This ambitious initiative combines traditional farming practices with cutting-edge technology to create a sustainable and efficient growing environment. The greenhouse project encompasses a range of structures equipped with climate control systems, irrigation methods, and nutrient delivery systems to optimize plant growth and maximize yield.
+              Agrosmart Farm, nestled in the heart of Nigeria, has embarked on an innovative greenhouse project aimed at revolutionizing agriculture in the region. This ambitious initiative combines traditional farming practices with cutting-edge technology to create a sustainable and efficient growing environment. The greenhouse project encompasses a range of structures equipped with climate control systems, irrigation methods, and nutrient delivery systems to optimize plant growth and maximize yield.
             </div>
           </Delay>
 
@@ -29,9 +29,9 @@ const GreenHouseProject = () => {
               <div className='pe-md-2'>
                 <Delay delay={500}>
                   <div className='slideUp'>
-                    By harnessing natural sunlight and regulating temperature and humidity levels, these greenhouses provide an ideal environment for cultivating a variety of crops year-round, regardless of external weather conditions. From tomatoes and peppers to cucumbers and leafy greens, Agricavenue’s greenhouse project diversifies crop production and ensures a consistent and reliable food supply for local communities.
+                    By harnessing natural sunlight and regulating temperature and humidity levels, these greenhouses provide an ideal environment for cultivating a variety of crops year-round, regardless of external weather conditions. From tomatoes and peppers to cucumbers and leafy greens, Agrosmart’s greenhouse project diversifies crop production and ensures a consistent and reliable food supply for local communities.
                     <div className="mt-3"></div>
-                    Moreover, the greenhouse project at Agricavenue Farm is not only about increasing agricultural productivity but also about promoting environmental sustainability. By utilizing advanced irrigation techniques such as drip irrigation and capturing rainwater for reuse, the project minimizes water waste and reduces reliance on traditional irrigation methods.
+                    Moreover, the greenhouse project at Agrosmart Farm is not only about increasing agricultural productivity but also about promoting environmental sustainability. By utilizing advanced irrigation techniques such as drip irrigation and capturing rainwater for reuse, the project minimizes water waste and reduces reliance on traditional irrigation methods.
                   </div>
                 </Delay>
                 <br />
@@ -55,7 +55,7 @@ const GreenHouseProject = () => {
                   <div className='slideUp'>
                     Additionally, integrated pest management strategies and organic farming practices are employed to minimize the use of pesticides and herbicides, ensuring that crops are grown in a healthy and eco-friendly manner. This commitment to sustainability extends beyond production methods to include energy-efficient technologies and waste management practices, further reducing the farm’s carbon footprint and environmental impact.
                     <div className="mt-3"></div>
-                    Furthermore, the greenhouse project at Agricavenue Farm represents a significant investment in the local economy, creating jobs, and stimulating economic growth in the region. Through training and employment opportunities, local residents are empowered to participate in the agricultural sector and contribute to the success of the greenhouse project.
+                    Furthermore, the greenhouse project at Agrosmart Farm represents a significant investment in the local economy, creating jobs, and stimulating economic growth in the region. Through training and employment opportunities, local residents are empowered to participate in the agricultural sector and contribute to the success of the greenhouse project.
                   </div>
                 </Delay>
               </div>
@@ -63,10 +63,10 @@ const GreenHouseProject = () => {
           </div>
 
           <div className="mt-3">
-            Additionally, by producing high-quality crops year-round, Agricavenue enhances food security and reduces reliance on imported goods, strengthening Nigeria’s agricultural sector and fostering self-sufficiency. As a result, the greenhouse project at Agricavenue Farm not only transforms the agricultural landscape but also serves as a model for sustainable development and economic empowerment in Nigeria and beyond.
+            Additionally, by producing high-quality crops year-round, Agrosmart enhances food security and reduces reliance on imported goods, strengthening Nigeria’s agricultural sector and fostering self-sufficiency. As a result, the greenhouse project at Agrosmart Farm not only transforms the agricultural landscape but also serves as a model for sustainable development and economic empowerment in Nigeria and beyond.
           </div>
           <div className="mt-3">
-            The greenhouse project at Agricavenue Farm in Nigeria offers numerous advantages to farm production, contributing to agricultural sustainability, productivity, and economic development:
+            The greenhouse project at Agrosmart Farm in Nigeria offers numerous advantages to farm production, contributing to agricultural sustainability, productivity, and economic development:
           </div>
 
           <div className="row">

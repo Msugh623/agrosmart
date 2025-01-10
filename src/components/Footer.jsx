@@ -15,7 +15,7 @@ const Footer = () => {
 
                                     <div className='row'>
                                         <div className="col-md-6">
-                                            <h3>Agricavenue</h3>
+                                            <h3>Agrosmart</h3>
                                             <p>
                                                 Discover a diverse array of premium agricultural products, proudly grown and harvested with care on our innovative farms.
                                             </p>
@@ -23,28 +23,28 @@ const Footer = () => {
                                                 <div className="fs-5 mb-2">
                                                     <FaLocationDot className='icon ' /> Address
                                                 </div>
-                                                Block C5 Suite 2, Aje International Ultra Modern Market, Osogbo, Osun State, Nigeria
+                                                Lorem ipsum dolor sit amet consectetur adipisicing elit. Non ut ex temporibus
                                             </p>
                                         </div>
                                         <div className="col-md-6 px-md-5">
                                             <h4>Contacts</h4>
 
                                             <div onClick={() => {
-                                                navigator.clipboard.writeText('0818  228 3683')
+                                                navigator.clipboard.writeText('+234 812 166 7177')
                                             }}>
                                                 <div>
                                                     Phone:
                                                 </div>
-                                                0818  228 3683
+                                                +234 812 166 7177
                                             </div>
 
                                             <div className='text-light mt-3'>
                                                 <div>
                                                     Email:
                                                 </div>
-                                                <a href="mailto:⁠safakeye@agricavenue.com.ng">⁠safakeye@agricavenue.com.ng</a>
+                                                <a href="mailto:dataswift@agrosmart.com.ng">dataswift@agrosmart.com.ng</a>
                                                 <br />
-                                                <a href="mailto:Info@agricavenue.com.ng">Info@agricavenue.com.ng</a>
+                                                <a href="mailto:Info@agrosmart.com.ng">Info@agrosmart.com.ng</a>
                                             </div>
                                             <br />
                                         </div>
@@ -58,9 +58,9 @@ const Footer = () => {
 
                             <div className="col-md-3 text-light" >
                                 <h4>Quick Links</h4>
-                                <Link to={'/green-house-project'} className='d-block' style={{
+                                <Link to={'/some-other-page'} className='d-block' style={{
                                     textDecoration: 'underline'
-                                }}>Green House Project</Link>
+                                }}>Some  Other Project</Link>
                                 <Link to={'/our-farm'} className='d-block' style={{
                                     textDecoration: 'underline'
                                 }}>Our Farm</Link>
@@ -78,14 +78,11 @@ const Footer = () => {
 
                 <div className="container">
                     <div className="copyright text-center mt-5" >
-                        {/* &copy; Copyright <strong><span>{'<*********************>'}</span></strong>. All Rights Reserved */}
+                        &copy; Copyright <strong><span><a className='text-light' href="https://sprintet.onrender.com/menu">Sprintet 2025</a></span></strong>. All Rights Reserved
                     </div>
-                    {/* <div className="credits" style={{
-                backgroundColor: palate.background.default,
-                color: palate.neutral.light
-            }}>
-        Designed by <a href="#">Chia Ernest</a>
-    </div> */}
+                </div>
+                <div className="credits container text-center">
+                    Designed by <a className='text-light' href="https://github.com/msugh623">Chia Ernest</a>
                 </div>
             </footer>
         </div>

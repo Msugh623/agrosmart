@@ -36,7 +36,7 @@ const Home = () => {
                         <div className='ps-2 ps-md-3 ps-lg-0 ms-lg-0'>
                             <div className="row justify-content-center">
                                 <div className="col-lg-9">
-                                    <h1 className='slideUp fw-bold mt-5 pt-5'>Agricavenue</h1>
+                                    <h1 className='slideUp fw-bold mt-5 pt-5'>Agrosmart</h1>
                                     <p className='fs-6 col-11 col-md-9'>
                                         <Delay delay={100}>
                                             <div className="slideUp">
@@ -55,7 +55,7 @@ const Home = () => {
                                             <a className='slideIn fs-5' target='_blank' href="https://web.facebook.com/kareleoodua/"><FaFacebook /></a>
                                         </Delay>
                                         <Delay inline={true} delay={1900}>
-                                            <a className='slideRight fs-5' target='_blank' href="mailto:Info@agricavenue.com.ng"><BsEnvelopeAtFill /></a>
+                                            <a className='slideRight fs-5' target='_blank' href="mailto:Info@agrosmart.com.ng"><BsEnvelopeAtFill /></a>
                                         </Delay>
                                     </div>
                                     {/* <Delay inline={true} delay={3000}>
@@ -82,9 +82,12 @@ const Home = () => {
                                     <div className='pe-md-2'>
                                         <Delay delay={500}>
                                             <div className='slideUp'>
-                                                At Agricavenue, we’re passionate about cultivating a brighter future for agriculture, one harvest at a time. As you explore our website, you’ll discover a diverse array of premium agricultural products, proudly grown and harvested with care on our innovative farms. From fresh vegetables bursting with flavor to succulent meats raised with ethical and sustainable practices, Agricavenue offers a bounty of wholesome goodness straight from the fields to your table.
+                                               Lorem ipsum dolor sit amet consectetur adipisicing elit. Rerum voluptatibus illo, voluptatum, incidunt labore magnam eaque, rem iusto laborum adipisci quod amet officiis? Deserunt, consectetur aliquam. Ratione repellat hic dignissimos?
+                                               Ullam maiores distinctio rem sequi at deserunt optio quas laboriosam animi iste delectus inventore recusandae hic consequuntur, libero reprehenderit autem possimus ducimus, esse non. Quasi libero itaque voluptas magnam esse.
+                                               Ipsa sit officia modi repudiandae totam eveniet, repellat quos deserunt doloribus itaque fugiat nobis eaque ratione. Nam iure quas in cum fugit, neque provident, aut deleniti magni minima error quos!
                                                 <br /><br />
-                                                But Agricavenue is more than just a purveyor of exceptional produce – we’re pioneers in shaping the future of agriculture. With a steadfast commitment to innovation and sustainability, we’re constantly exploring new technologies and methods to enhance productivity, minimize environmental impact, and promote food security.
+                                                Lorem ipsum dolor sit amet consectetur adipisicing elit. Rerum reiciendis nam blanditiis repellendus, dignissimos sapiente similique itaque mollitia magni excepturi quasi modi beatae ea quo atque repellat tenetur, optio sequi?
+                                                Voluptas quidem voluptatem porro reiciendis nulla necessitatibus.
                                                 <div className='pt-3 mt-5 d-none d-md-flex pt-md-0'>
                                                     <Link to={'/about-us'} className='readmore custom-navmenu mt-5 mt-md-0 text-light no-dec growIn'>
                                                         Learn More

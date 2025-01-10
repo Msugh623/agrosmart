@@ -45,11 +45,11 @@ const Contact = () => {
                   <h5>
                     0818  228 3683
                     <br /><br />
-                    Info@agricavenue.com.ng
+                    Info@agrosmart.com.ng
                     <br />
-                    ⁠safakeye@agricavenue.com.ng
+                    dataswift@agrosmart.com.ng
                     <br />
-                   
+
                   </h5>
                 </div>
               </Delay>
@@ -58,7 +58,7 @@ const Contact = () => {
                   <a className='slideIn fs-4 me-2' target='_blank' href="https://web.facebook.com/kareleoodua/"><FaFacebook /></a>
                 </Delay>
                 <Delay inline={true} delay={1000}>
-                  <a className='slideRight fs-4' target='_blank' href="mailto:Info@agricavenue.com.ng">< BsEnvelopeAtFill /></a>
+                  <a className='slideRight fs-4' target='_blank' href="mailto:Info@agrosmart.com.ng">< BsEnvelopeAtFill /></a>
                 </Delay>
               </div>
             </div>

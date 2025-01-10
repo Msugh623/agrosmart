@@ -25,11 +25,12 @@ const Vegetables = () => {
             </h2>
             <Delay delay={400}>
               <div className='slideUp'>
-                Agricavenue is a pioneering farm business dedicated to vegetable production, pioneering innovative techniques to cultivate a wide range of nutrient-rich vegetables. Our farm leverages cutting-edge technology such as hydroponics and vertical farming to optimize space and resources, ensuring a consistent and abundant harvest year-round.
+                Agrosmart is a pioneering farm business dedicated to vegetable production, pioneering innovative techniques to cultivate a wide range of nutrient-rich vegetables. Our farm leverages cutting-edge technology such as hydroponics and vertical farming to optimize space and resources, ensuring a consistent and abundant harvest year-round.
                 <div className="mt-3">
-                  Located on the outskirts of the city, Agricavenue prioritizes sustainability, utilizing renewable energy sources and minimizing waste through efficient water management systems. From leafy greens to exotic heirloom varieties, Agricavenue prides itself on delivering fresh, pesticide-free vegetables directly to consumers through local markets and community-supported agriculture programs.
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit. Ut dolorum recusandae harum quaerat inventore. Expedita consectetur, voluptates optio quisquam non quia animi, explicabo sit nostrum nam suscipit ab mollitia cupiditate.
+                  Quos quaerat nam doloribus libero, sapiente sint debitis dignissimos? Quod, error alias voluptate ullam itaque veniam nisi deleniti ut sit provident fuga pariatur dignissimos quia doloremque quo esse odio rem.
                   <div className="mt-3">
-                    Committed to revolutionizing urban agriculture, Agricavenue strives to provide wholesome, locally grown produce while promoting environmental responsibility and food security.
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Quos nulla dolore ea pariatur in unde, quod rem officia molestiae quaerat, odio iure non iusto a distinctio rerum? Ipsum, id explicabo?
                   </div>
                 </div>
                 <div className="mt-3">
@@ -93,7 +94,7 @@ const Vegetables = () => {
                       </p>
                     </div>
                   </div>
-                </Delay> 
+                </Delay>
                 <Delay delay={0}>
                   <div className="col-12 col-md-6 col-xl-4 mt-4">
                     <div className={`hovShade h-100 shadow`}>
@@ -143,7 +144,7 @@ const Vegetables = () => {
                       <LazyLoadImage effect='opacity' className='img-fluid acbg rounded shadow' placeholderSrc='/Media/placeholder.avif' src={'/Media/Green-Beans.jpg'} alt="" />
                       <h4 className="h4 mb-2">Green Beans</h4>
                       <p>
-                      These crisp and tender beans are commonly steamed, sautéed, or added to casseroles as a nutritious side dish.
+                        These crisp and tender beans are commonly steamed, sautéed, or added to casseroles as a nutritious side dish.
                       </p>
                     </div>
                   </div>

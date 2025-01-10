@@ -223,8 +223,8 @@ const NavGeneric = () => {
 
     return <div className="d-flex" onMouseEnter={() => { setShow(true) }} onMouseLeave={() => setTimeout(() => setShow(false), 300)}>
         <Delay delay={1800}>
-            <h1 title='Agricavenue Logo' className="mx-auto mt-3" >
-                <img src="https://res.cloudinary.com/dqbgai7xd/image/upload/e_improve,e_sharpen/v1723495167/WhatsApp_Image_2024-08-12_at_18.23.41_1_ezuolb.jpg" alt="Agricavenue Logo" about='Agricavenue Logo' width={'80px'} className=' rounded slideUp' />
+            <h1 title='Agrosmart Logo' className="mx-auto mt-3" >
+                <img src="https://res.cloudinary.com/dqbgai7xd/image/upload/e_improve,e_sharpen/v1723495167/WhatsApp_Image_2024-08-12_at_18.23.41_1_ezuolb.jpg" alt="Agrosmart Logo" about='Agrosmart Logo' width={'80px'} className=' rounded slideUp' />
             </h1>
         </Delay>
         <div className='d-flex' style={{

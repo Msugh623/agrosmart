@@ -7,7 +7,7 @@ import Delay from '../components/Delay'
 
 const OurFarm = () => {
     const { setTitle } = useStateContext()
-    const [center,setCenter]=useState('')
+    const [center, setCenter] = useState('')
 
     useEffect(() => {
         scroll({ top: 0 })
@@ -30,7 +30,7 @@ const OurFarm = () => {
                         </h2>
                         <Delay delay={400}>
                             <div className='slideUp'>
-                                discover a diverse array of premium agricultural products, proudly grown and harvested with care on our innovative farms. From fresh vegetables bursting with flavor to succulent meats raised with ethical and sustainable practices, Agricavenue offers a bounty of wholesome goodness straight from the fields to your table.
+                                discover a diverse array of premium agricultural products, proudly grown and harvested with care on our innovative farms. From fresh vegetables bursting with flavor to succulent meats raised with ethical and sustainable practices, Agrosmart offers a bounty of wholesome goodness straight from the fields to your table.
                             </div>
                         </Delay>
                         <Delay delay={600}>

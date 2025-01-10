@@ -27,25 +27,26 @@ const LiveStock = () => {
             </h2>
             <Delay delay={400}>
               <div className='slideUp'>
-                Agricavenue is a renowned farm business specializing in livestock production, renowned for its commitment to ethical and sustainable farming practices. Our sprawling pastures provide a nurturing environment for a variety of livestock, including grass-fed cattle, pasture-raised poultry, heritage breed pigs, and free-range eggs. Our grass-fed beef offers a rich, flavorful taste while promoting animal welfare and environmental sustainability.
+                Agrosmart is a renowned farm business specializing in livestock production, renowned for its commitment to ethical and sustainable farming practices. Our sprawling pastures provide a nurturing environment for a variety of livestock, including grass-fed cattle, pasture-raised poultry, heritage breed pigs, and free-range eggs. Our grass-fed beef offers a rich, flavorful taste while promoting animal welfare and environmental sustainability.
                 <div className="row">
                   <div className="col-lg-6">
                     <div className="mt-3">
-                      Our pasture-raised chickens produce eggs with vibrant yolks and exceptional flavor, reflecting their natural diet and spacious living conditions. Additionally, our heritage breed pigs yield succulent pork with unparalleled depth of flavor, a testament to their traditional rearing methods.
+                      Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quasi nulla est repudiandae sint delectus nemo numquam, ea odit architecto quaerat odio expedita, quibusdam cupiditate nobis enim quod! Obcaecati, praesentium pariatur.
+                      Asperiores natus sed doloribus rem eveniet inventore deserunt quasi quam non qui enim maiores, autem pariatur omnis velit fugiat? Porro unde doloremque veniam expedita error quasi, recusandae quam alias rerum?
                       <div className="mt-3">
-                        With a focus on quality and integrity, Agricavenue ensures that each livestock product meets the highest standards of taste, nutrition, and ethical treatment, providing customers with wholesome and delicious options straight from the farm.
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Earum quos ut harum fuga vitae veritatis facilis maxime. Maiores repellendus, modi tempora sapiente eaque facere deserunt, commodi iste quo amet sed.
                       </div>
                     </div>
                   </div>
                   <div className="col-lg-6 d-flex flex-column pt-3">
-                    <Player preload='true' height={'100%'} aspectRatio='auto' src="/Media/WhatsApp-Video-2024-05-18-at-19.20.19_7064ac40.mp4">
+                    <Player preload='true' height={'100%'} aspectRatio='auto' src="https://res.cloudinary.com/dqbgai7xd/video/upload/v1736540005/19982294-hd_1920_1080_30fps_f0cqd8.mp4">
                       <ControlBar autoHide={false} className="my-class" />
                     </Player>
                   </div>
 
                 </div>
                 <div className="mt-3">
-                  At Agricavenue Farm, we pride ourselves on producing a diverse range of high-quality livestock products. Some examples include:
+                  At Agrosmart Farm, we pride ourselves on producing a diverse range of high-quality livestock products. Some examples include:
                 </div>
               </div>
             </Delay>
@@ -109,7 +110,7 @@ const LiveStock = () => {
               </div>
             </Delay>
             <div className="mt-3">
-              Experience the difference with Agricavenue’s responsibly raised livestock products, where taste, quality, and ethics converge.
+              Experience the difference with Agrosmart’s responsibly raised livestock products, where taste, quality, and ethics converge.
             </div>
           </div>
         </div>

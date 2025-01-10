@@ -94,7 +94,7 @@ const Travels = () => {
               Embark on a journey of a lifetime with The Visits Travels. We are always available, accessible, and affordable. Let us help you explore the globe with ease and make lasting memories.
               <br />
               <br />
-              Explore the World. Live Your Dream. Travel with Agricavenue.
+              Explore the World. Live Your Dream. Travel with Agrosmart.
             </p>
           </Delay>
         </div>
